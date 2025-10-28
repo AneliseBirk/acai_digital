@@ -10,10 +10,13 @@
 <body>
     <a href="index.html" class="botao-voltar">Voltar</a>
     <h2 class="ops">Ops... Parece que você não possui cadastro ainda!</h2>
-    <form action="formulario.html" method="post" class="form">
+    <form action="formulario.html" method="post" class="form" onsubmit="mostrarMensagem(event)">
         
-            <label for="name">Nome Completo:</label><br>
-            <input type="text" id="name" name="name" placeholder="acaidigital@gmail.com" required><br>
+            <label for="name">Nome de usuário:</label>
+            <input type="text" id="username" name="name" required>
+
+            <label for="name">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="acaidigital@gmail.com" required><br>
         
 
         
@@ -26,6 +29,10 @@
         
         
     </form>
-    
+
+    <p id="mensagem">
+        Cadastro enviado com sucesso!
+    </p>
+    <script src="script.js" defer></script> 
 </body>
 </html>
