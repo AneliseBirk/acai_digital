@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/logo.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css"></linl>
+    <title>Açaí Digital — Cadastro</title>
+</head>
+<body>
+    <div id="header-container">
+        <header class="topbar">
+            
+                <div class="logo">
+                    <img class="logo-index" src="imagens/logo.jpeg" alt="Logo">
+                    Açaí Digital
+                </div>
+
+                <nav>
+                    <a href="#">Cardápio</a>
+                    <a href="formulario.html">Pedidos</a>
+                    <a href="carrinho.html">Carrinho</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <a href="index.html" class="botao-voltar">Voltar</a>
+    <h2 class="ops">Ops... Parece que você não possui cadastro ainda!</h2>
+    <form action="formulario.html" method="post" class="form" onsubmit="mostrarMensagem(event)">
+        
+            <label for="name">Nome de usuário:</label>
+            <input type="text" id="username" name="name" required>
+
+            <label for="name">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="acaidigital@gmail.com" required><br>
+        
+
+        
+            <label for="tel">Número de WhatsApp:</label><br>
+            <input type="tel" id="tel" name="tel" maxlength="11" placeholder="(xx) xxxx-xxxx" required><br>
+        
+        
+        
+            <button class="botao-avançar" type="submit">Avançar</button>
+        
+        
+    </form>
+
+    <p id="mensagem">
+        Cadastro enviado com sucesso!
+    </p>
+    <footer class="footer">
+        <p>© 2025 Açaí Digital | Todos os direitos reservados</p>
+        <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+        </div>
+    </footer>
+    <div id="footer-container">
+        <script src="script.js" defer></script> 
+        <div id="header-container"></div>
+        <div id="footer-container"></div>
+    </div>
+
+    <script src="js/componentes.js"></script>
+    <script>
+    carregarComponente('componentes/header.html', '#header-container');
+    carregarComponente('componentes/footer.html', '#footer-container');
+    </script>
+</body>
+</html>

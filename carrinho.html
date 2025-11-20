@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Açaí Digital — Carrinho</title>
+  <link rel="icon" href="imagens/logo.jpeg" type="image/jpeg">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-cart">
+  <!-- Topo amarelo -->
+
+  <div id="header-container">
+    <header class="topbar">
+      
+        <div class="logo">
+            <img class="logo-index" src="imagens/logo.jpeg" alt="Logo">
+            Açaí Digital
+        </div>
+        <div class="wrap">
+          <div class="brand"><span class="brand-name">Carrinho</span></div>
+          <nav>
+            <a class="chip icon" href="#" aria-label="Pesquisar">🔍</a>
+            <a class="chip icon" href="#" aria-label="Compartilhar">🔗</a>
+          </nav>
+        </div>
+      
+    </header>
+  </div>
+
+  <a href="index.html" class="botao-voltar">Voltar</a>
+
+  <!-- Círculos de fundo (iguais aos da home) -->
+  <div class="bg-circle c1" aria-hidden="true"></div>
+  <div class="bg-circle c2" aria-hidden="true"></div>
+  <div class="bg-circle c3" aria-hidden="true"></div>
+
+  <main class="section">
+    <div class="cart-wrap">
+      <div class="cart-card">
+        <ul class="cart-list">
+          <li class="cart-item">
+            <img src="imagens/tradicional.jpeg" alt="Açaí Tradicional 300ml">
+            <span class="cart-name">Açaí Tradicional 300ml</span>
+            <span class="cart-price">R$14,00</span>
+          </li>
+          <li class="cart-item">
+            <img src="imagens/pistache.jpeg" alt="Açaí Pistache 500ml">
+            <span class="cart-name">Açaí Pistache 500ml</span>
+            <span class="cart-price">R$26,00</span>
+          </li>
+          <li class="cart-item">
+            <img src="imagens/cremecookies.jpeg" alt="Creme Cookies 300ml">
+            <span class="cart-name">Creme Cookies 300ml</span>
+            <span class="cart-price">R$20,00</span>
+          </li>
+          <li class="cart-item cart-total">
+            <span class="cart-name">Total:</span>
+            <span class="cart-price">R$60,00</span>
+          </li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="pay-row">
+        <a class="btn-pay" href="#">Ir para o pagamento</a>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-cart">
+    <div id="footer-container">
+      <p>© 2025 Açaí Digital | Todos os direitos reservados</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+  <div id="header-container"></div>
+  <div id="footer-container"></div>
+
+  <script src="js/componentes.js"></script>
+  <script>
+    carregarComponente('componentes/header.html', '#header-container');
+    carregarComponente('componentes/footer.html', '#footer-container');
+  </script>
+</body>
+</html>
