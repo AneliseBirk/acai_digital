@@ -9,16 +9,26 @@
 </head>
 <body class="page-cart">
   <!-- Topo amarelo -->
-  <header class="topbar">
-    <a href="index.html" class="botao-voltar">Voltar</a>
-    <div class="wrap">
-      <div class="brand"><span class="brand-name">Carrinho</span></div>
-      <nav class="nav">
-        <a class="chip icon" href="#" aria-label="Pesquisar">🔍</a>
-        <a class="chip icon" href="#" aria-label="Compartilhar">🔗</a>
-      </nav>
-    </div>
-  </header>
+
+  <div id="header-container">
+    <header class="topbar">
+
+        <div class="logo">
+            <img class="logo-index" src="imagens/logo.jpeg" alt="Logo">
+            Açaí Digital
+        </div>
+        <div class="wrap">
+          <div class="brand"><span class="brand-name">Carrinho</span></div>
+          <nav>
+            <a class="chip icon" href="#" aria-label="Pesquisar">🔍</a>
+            <a class="chip icon" href="#" aria-label="Compartilhar">🔗</a>
+          </nav>
+        </div>
+
+    </header>
+  </div>
+
+  <a href="index.html" class="botao-voltar">Voltar</a>
 
   <!-- Círculos de fundo (iguais aos da home) -->
   <div class="bg-circle c1" aria-hidden="true"></div>
@@ -49,6 +59,7 @@
             <span class="cart-price">R$60,00</span>
           </li>
         </ul>
+        </div>
       </div>
 
       <div class="pay-row">
@@ -56,5 +67,23 @@
       </div>
     </div>
   </main>
+  <footer class="footer-cart">
+    <div id="footer-container">
+      <p>© 2025 Açaí Digital | Todos os direitos reservados</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+  <div id="header-container"></div>
+  <div id="footer-container"></div>
+
+  <script src="js/componentes.js"></script>
+  <script>
+    carregarComponente('componentes/header.html', '#header-container');
+    carregarComponente('componentes/footer.html', '#footer-container');
+  </script>
 </body>
 </html>

@@ -124,10 +124,7 @@ AçaiDigital/
 Na primeira etapa do projeto, foi-se iniciado com o protótipo no figma, onde as primeiras ideias de como seria cada parte do site surgiram, juntamente com a criatividade, o design surgiu com as modificações que deveríamos seguir pelo back-end posteriomente, nos dando um caminho a ser seguido. 
 
 ### Segunda Etapa: Início do Back-end com HTML5 e CSS3 
-Na segunda etapa, nossos desenvolvedores entraram em ação no código, ou também chamado de *Back-end*, surgiram a necessidade de utilizar HTML5 para a criação do corpo bruto da página, os primeiros elementos surgiram a partir dessa linguagem de programação, onde os principais textos foram escritos e adicionados. Em seguida surgiu o CSS3, com o intuito de adicionar um design mais atrativo para a página em si, elementos novos, cores, espaços de textos onde seriam os formulários foram surgindo, então, dando vida á página escolhida, o usuário já conseguia ter uma experiência baseada nas heurísticas que nos foram ensinadas. 
-
-### Terceira etapa: Navegação com JavaScript 
-Na terceira e última etapa do nosso projeto, uma nova linguagem surgiu para tornar a experiência do usuário mais estruturada e complexa, sendo ela o JavaScript, que tornou possível a navegação do usuário pela página, além de algumas animações pelo corpo da página também foram possíveis graças à essa mesma linguagem. 
+Na segunda etapa, nossos desenvolvedores entraram em ação no código, ou também chamado de *Back-end*, surgiram a necessidade de utilizar HTML5 para a criação do corpo bruto da página, os primeiros elementos surgiram a partir dessa linguagem de programação, onde os principais textos foram 
 
 ## Componentes Modularizaados
 Os componentes modularizados representam uma forma organizada e eficiente de estruturar sistemas, sites e aplicações. Eles consistem na divisão do projeto em módulos menores, independentes e reutilizáveis, cada um responsável por uma função específica. Essa abordagem facilita o desenvolvimento, a manutenção e a expansão do sistema, tornando todo o processo mais claro e profissional.
